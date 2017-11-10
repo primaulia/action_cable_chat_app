@@ -9,5 +9,19 @@ App.room = App.cable.subscriptions.create('RoomChannel', {
       data.content is ${data.content}
       data.username is ${data.username}
     `)
+
+    var html = `
+      <div class="message">
+        <div class="message-user">
+          ${data.username}:
+        </div>
+        <div class="message-content">
+          ${data.content}
+        </div>
+      </div>
+    `
+
+    $('#messages-table').append(html)
+    ${'#message_content').val('')
   }
 })
