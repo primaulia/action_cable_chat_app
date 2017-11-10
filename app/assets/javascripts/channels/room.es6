@@ -22,6 +22,6 @@ App.room = App.cable.subscriptions.create('RoomChannel', {
     `
 
     $('#messages-table').append(html)
-    $(h'#message_content').val('')
+    $('#message_content').val('')
   }
 })
