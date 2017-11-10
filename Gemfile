@@ -11,6 +11,8 @@ gem 'jquery-rails',            '4.1.1'
 gem 'turbolinks',              '5.0.0'
 gem 'jbuilder',                '2.4.1'
 gem 'redis'
+gem 'sprockets', '>=3.0.0.beta'
+gem 'sprockets-es6'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
