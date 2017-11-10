@@ -10,8 +10,8 @@ gem 'coffee-rails',            '4.2.1'
 gem 'jquery-rails',            '4.1.1'
 gem 'turbolinks',              '5.0.0'
 gem 'jbuilder',                '2.4.1'
-gem 'redis'
-gem 'sprockets', '>=3.0.0.beta'
+gem 'redis',                   '3.3.1'
+gem 'sprockets',               '>=3.0.0.beta'
 gem 'sprockets-es6'
 
 group :development, :test do
